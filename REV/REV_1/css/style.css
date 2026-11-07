@@ -1,0 +1,233 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*-webkit-user-select:none;
+  -webkit-user-select:all;*/
+  .section1 {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/photo_4.jpg);
+    background-size: 100% 100%;
+    position: relative;
+  }
+  .overlay {
+    background-color: rgba(0, 0, 0,0.6);
+    height: 100vh;
+  }
+  .left {
+    float: left;
+    width: 200px;
+    height: auto;
+    margin-left: 45px;
+    margin-top: 15px;
+    display: flex;
+  }
+  .left i {
+    color: #f1c40f;
+    font-size: 35px;
+    padding-top: 3px;
+  }
+  header h3 {
+    color: white;
+    font-size: 35px;
+    padding-left: 15px;
+  }
+  header ul {
+    float: right;
+    list-style: none;
+  }
+  ul li {
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 45px;
+  }
+  ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+  }
+  ul li span {
+    color: #f1c40f;
+  }
+  .bottom {
+    margin-top: 110px;
+    width: 35%;
+    height: auto;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    margin-left: 50px;
+    padding: 40px 20px;
+  }
+  .bottom h2 {
+    font-size: 35px;
+    font-weight: bold;
+   
+  }
+  .bottom h1 {
+    color: transparent;
+    -webkit-text-stroke: 1px #f1c40f;
+    line-height: 1.4;
+    font-size: 60px;
+    padding-bottom: 7px;
+  }
+  .bottom p {
+    font-size: 18px;
+    padding-bottom: 40px;
+  }
+  .btn1 ,.btn2 ,.btn3 , .btn4 {
+   width: 150px;
+   height: 40px;
+   color: transparent;
+   border-radius:5px;
+   margin-right: 10px;
+   font-size: 18px;
+   border: 1px solid #f1c40f;
+  }
+  .btn1 ,.btn3 {
+   background-color: #f1c40f;
+   color: #000;
+  }
+  .btn2 ,.btn4 {
+   background-color: transparent;
+   color: #f1c40f;
+  }
+  .btn1 , .btn2:hover{
+    cursor: pointer;
+  }
+  /***************************************************/
+  .parent {
+    background-color:whitesmoke;
+    width: 100%;
+    height: 70vh;
+    position: relative;
+  }
+   
+  .inner{
+    overflow: auto;
+    width: 70%;
+    height: 60vh;
+    /*background-color: rgb(67, 19, 67);*/
+    transform: translate(21% , 8%);
+    position: absolute;
+  }
+  .div1 , .div2 ,.div3 {
+    width: 30%;
+    height: 260px;
+    margin-top:100px;
+    float: left;
+    margin-left: 28px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid;
+    padding-top: 15px;
+  }
+  .inner i {
+    padding-top: 15px;
+    font-size: 35px;
+    color: #f1c40f;
+  }
+  .inner h3 {
+    padding-top: 12px;
+    color: rgb(27, 27, 27);
+    font-size: 25px;
+  }
+  .inner p {
+    color: rgb(60, 59, 59);
+    font-size: 15px;
+    padding-top: 17px;
+    padding-bottom: 20px;
+  }
+  .inner a {
+   text-decoration: none;
+   color: rgb(27, 27, 27);
+   font-size: 20px;
+  }
+  /****************************************/
+  .section3 {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+  }
+  .left1 , .right1 {
+    width: 50%;
+  }
+  .left1 {
+    margin-top: 90px;
+    margin-left: 20px;
+  }
+  .left1 article{
+    display: flex;
+    margin-left: 260px;
+    padding-bottom: 35px;
+  }
+  .left1 article i {
+    font-size: 25px;
+    color: #f1c40f;
+    padding-right: 10px;
+    padding-top: 2px;
+  }
+  .left1 article h4 {
+    font-size: 20px;
+    color: rgb(56, 56, 56);
+    font-family: fantasy;
+  }
+  .right1 img {
+    width: 50%;
+    height:95%;
+    transform: translate( 20% , 5%);
+  }
+  /*******b*************************************************/
+  .section4 {
+    width: 100%;
+    height: 60vh;
+    background-image: url(../images/photo_5.jpg);
+    background-size: 100% 100%;
+  }
+  .overlay2 {
+    height: 100%;
+    background-color: rgba(0, 0, 0,0.4);
+    position: relative;
+  }
+  .inner2 {
+    position: absolute;
+    margin-top: 70px;
+    text-align: center;
+    margin-left: 520px;
+  }
+  .inner2 article {
+    display: flex;
+  }
+  .inner2 h4 {
+    color: white;
+    font-size: 28px;
+    font-family:Arial, sans-serif;
+    padding-bottom: 20px;
+  }
+  .inner2 span {
+    color: #f1c40f;
+    font-size: 25px;
+    margin-left: 15px;
+    padding-top: 5px;
+  }
+  .btn3 , .btn4:hover {
+    cursor: pointer;
+  }
+  footer {
+    width: 100%;
+    height: 7vh;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+    padding-top: 15px;
+    background-color: #1a1a1a;
+  }
+  footer span {
+color: #f1c40f;
+  }
+  footer span:hover {
+    cursor: pointer;
+  }
